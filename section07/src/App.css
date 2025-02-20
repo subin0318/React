@@ -1,0 +1,19 @@
+body {
+    margin: 20px;
+    /* 요소 와 요소 의 여백  */
+}
+
+.App {
+    margin: 0 auto;
+    /* 가운데 정렬 */
+    width: 400px;
+}
+
+.App > section {
+    background-color: rgb(245,245,245);
+    border: 1px solid rgb(240,240,240);
+    border-radius: 5px;
+    padding: 20px;
+    /* 요소안 컨텐츠 와 컨텐츠 여백*/
+    margin-bottom: 10px;
+}

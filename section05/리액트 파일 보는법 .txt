@@ -1,0 +1,51 @@
+#node_modules
+프로젝트의 의존성을 관리하는 폴더 JS의 라이브러리 및 패키지가 이곳에 저장
+
+#public
+정적 파일을 저장하는 폴더
+HTML파일, 이미지, 아잌콘, 폰트, css 파일
+React 애플리케이션의 빌드과정에서 중요한 역활을 합니다
+
+#src 
+애플리케이션의 실제 소스 코드가 포함 됩니다
+->
+   assets 폴더에는 리소스 파일들이 포함 됩니다
+   정적 리소스: public에 저장 (예: 사이트로고, 메타 태그용 이미지)
+   컴포넌트 관련 리소스: src/assets에 저장 (예 페이지 배경, 이미지등)
+
+APP.jsx
+React 애플리케이션의 주요 컴포넌트를 정의하는 파일 입니다
+
+APP.css
+App.jsx 에서 사용되는 스타일을 정의하는 파일
+
+index.css
+애플리케이션의 전반적인 스타일을 정의하는 파일
+body 와 같은 상위 요소의 스타일 관리합니다
+
+main.jsx
+React 앱의 진입점 파일
+App.jsx ReactDOM을 통해 렌더링하고, index.html에 연결합니다.
+
+.gitignore
+Git에서 무시할 파일 및 디렉토리를 지정하는 파일입니다.
+이 파일에 나열된 항목들은 Git이 추적하지 않습니다.
+
+eslint.config
+eslint 의 설정 파일로 코드 품질을 유지하기 위해 문법 오류, 스타일 문제 등을 점검합니다
+
+index.html
+Reacr 앱을 로드할 HTML 파일로 main.jsx 에 정의한 root 요소에 앱을 렌더링 합니다
+
+package.json
+프로젝트의 의존성과 메타데이터를 정의하는 파일 입니다
+
+package-lock.json
+의존성의 정확한 버전과 설치 정보를 기록하여 일관된 설치를 보장하는 파일
+
+
+
+1. **`App.jsx`**: 컴포넌트를 정의하고 UI 로직을 작성합니다.
+2. **`App.css`**: 컴포넌트의 스타일을 정의하고, `App.jsx`에서 불러와 적용합니다.
+3. **`main.jsx`**: React 앱의 진입점으로, `App.jsx`를 렌더링하고 앱을 `index.html`에 연결합니다.
+4. **`index.html`**: React 앱을 로드할 HTML 파일로, 렌더링될 `root` 요소를 정의합니다.
