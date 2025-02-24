@@ -1,0 +1,27 @@
+// const nav = useNavigate();
+// // 다른페이지로 이동할수있게 해준다
+// const onClickButton = () => {
+//   nav("/new")
+// // }
+// // // 버튼 클릭시 발생하는 함수 
+
+// {/* <Link to={"/"}>HOME</Link>
+// <Link to={"/New"}>New</Link>
+// <Link to={"/diray"}>Diray</Link>
+ 
+// <button onClick={onClickButton}>New 페이지로 이동</button>
+// {/* 버튼을 클릭하였을떄 onClickButton 함수가 실행된다 */}
+//  {/* 
+//  <a href="/">Home</a>
+//  <a href="/new">new</a>
+//  <a href="/diray">diray</a>
+//  <a> 태그와 다르게 <Link> 태그는 부드럽게 화면 전환이 된다
+//  */} */}
+
+// <div>
+// <img src={getEmotionImage(1)} />
+// <img src={getEmotionImage(2)} />
+// <img src={getEmotionImage(3)} />
+// <img src={getEmotionImage(4)} />
+// <img src={getEmotionImage(5)} />
+// </div>
